@@ -25,7 +25,7 @@ O repositório contém os resultados da exploração prática de recursos de IA 
 ## Atividades Realizadas
 
 1. **Speech-to-Text (Reconhecimento de Fala):** 
-Como entrada do sistema, é gravado um áudio curto em português, no contexto desta atividade o conteúdo falado foi: "Oi, este audio é um teste para a Inteligencia artificial da Microsoft". O resultado retornado pelo sistema pode ser observado na Figura 1, alocada no diretório ***\images*** deste repositório.
+Como entrada do sistema, é gravado um áudio curto em português, no contexto desta atividade o conteúdo falado foi: "Oi, este audio é um teste para a Inteligencia artificial da Microsoft". O resultado retornado pelo sistema pode ser observado na Figura 'transcrição.png', alocada no diretório ***\images*** deste repositório.
 
 **Resultados e Discussões da atividade:**
 
@@ -36,8 +36,9 @@ Como entrada do sistema, é gravado um áudio curto em português, no contexto d
 ---
 
 2. **Text-to-Speech (Síntese de Voz):** 
-Como entrada do sistema, foi passada a seguinte frase em português: "Oi, está frase testa o recurso de sintese de voz com o Azure Speech Studio". O resultado retornado pelo sistema não pode ser plenamente ilustrado por imagens neste documento (uma vez que o retorno é sonoro), contudo, a página referente à esta atividade pode ser observada na Figura 2, alocada no diretório ***\images*** deste repositório.
+Como entrada do sistema, foi passada a seguinte frase em português: "Oi, está frase testa o recurso de sintese de voz com o Azure Speech Studio". O resultado retornado pelo sistema não pode ser plenamente ilustrado por imagens neste documento (uma vez que o retorno é sonoro), contudo, a página referente à esta atividade pode ser observada na Figura 'sintese.png', alocada no diretório ***\images*** deste repositório.
 
+É importante ressaltar que a plataforma dispões de diferentes tipos de vozes, especificando-as quanto ao genero, idade e idioma falado. Além disso características específicas de personalidade e cenários são associadas ao timbre da voz selecionada(como 'Confiante', 'Otimista', dentre outros). Tais funcionalidades podem ser observadas na fingura 'vozes.png', também alocada no diretório ***\images*** deste repositório.
 
 **Resultados e Discussões da atividade:**
 
@@ -46,8 +47,19 @@ Como entrada do sistema, foi passada a seguinte frase em português: "Oi, está 
 
 ---
 
-3. **Análise de sentimentos na linguagem natural:** 
-Como entrada do sistema, foi passada o seguinte trecho simulando uma avaliação de serviço: "O atendimento foi excelente, porém o tempo de espera precisa melhorar". Espera-se que o sistema retorne porcentagem de probabilidade entre as classes 'positivo' e 'negativo', indicando a tendencia de satisfação do cliente. O resultado da atividade pode ser observado na Figura 3, alocada no diretório ***\images*** deste repositório.
+3. **Tradução automática:** 
+Como entrada do sistema, foi passada a seguinte frase em português: "Este é um teste para a tradução de fala da ferramenta de inteligência artificial da Microsoft". Espera-se que o sistema retorne a mesma frase traduzida para a linguagem selecionada (que neste caso foi o inglês). O resultado pode ser observada na Figura 'tradução.png', alocada no diretório ***\images*** deste repositório.
+
+
+**Resultados e Discussões da atividade:**
+
+* O sistema é ágil e eficiente para converter a fala em texto e traduzi-la;
+* É notavel a otimização da tradução, tornando a o resultado mais coeso (percebe-se que há uma leve correção da entrada para se ajustar à escrita formal, quando possível).
+
+---
+
+4. **Análise de sentimentos na linguagem natural:** 
+Como entrada do sistema, foi passada o seguinte trecho simulando uma avaliação de serviço: "O atendimento foi excelente, porém o tempo de espera precisa melhorar". Espera-se que o sistema retorne porcentagem de probabilidade entre as classes 'positivo' e 'negativo', indicando a tendencia de satisfação do cliente. O resultado da atividade pode ser observado na Figura 'sentimentos.png', alocada no diretório ***\images*** deste repositório.
 
 **Resultados e Discussões da atividade:**
 
@@ -57,8 +69,8 @@ Como entrada do sistema, foi passada o seguinte trecho simulando uma avaliação
 
 ---
 
-4. **Extração de Entidades e Expressões-Chave:** 
-Como entrada do sistema, foi passada o seguinte trecho textual: "A Microsoft lançou novos recursos de IA em Uberlândia no dia 15 de março de 2024". Espera-se que o sistema retorne as principais entidades que fornecem a lógica semantica na frase, evidenciando as palvras que mais contribuem para o sentido geral. O resultado da atividade pode ser observado na Figura 4, alocada no diretório ***\images*** deste repositório.
+5. **Extração de Entidades e Expressões-Chave:** 
+Como entrada do sistema, foi passada o seguinte trecho textual: "A Microsoft lançou novos recursos de IA em Uberlândia no dia 15 de março de 2024". Espera-se que o sistema retorne as principais entidades que fornecem a lógica semantica na frase, evidenciando as palvras que mais contribuem para o sentido geral. O resultado da atividade pode ser observado na Figura 'entidades.png', alocada no diretório ***\images*** deste repositório.
 
 **Entidades identificadas:**
 
