@@ -59,25 +59,27 @@ Como entrada do sistema, foi passada a seguinte frase em português: "Este é um
 ---
 
 4. **Análise de sentimentos na linguagem natural:** 
-Como entrada do sistema, foi passada o seguinte trecho simulando uma avaliação de serviço: "O atendimento foi excelente, porém o tempo de espera precisa melhorar". Espera-se que o sistema retorne porcentagem de probabilidade entre as classes 'positivo' e 'negativo', indicando a tendencia de satisfação do cliente. O resultado da atividade pode ser observado na Figura 'sentimentos.png', alocada no diretório ***\images*** deste repositório.
+Como entrada do sistema, foi passada o seguinte trecho simulando uma avaliação de serviço: "O atendimento foi excelente, porém o tempo de espera precisa melhorar". Espera-se que o sistema retorne  a tendencia de satisfação do cliente. O resultado da atividade pode ser observado na Figura 'sentimentos.png', alocada no diretório ***\images*** deste repositório.
+
+Infelizmente o sistema Azure da microsoft apresentou bugs ao entrar no playground para testar a funcionalidade (obtive sérios problemas relacionados à interface na plataforma da Microsoft). Por isso a análise foi demonstrada por outro site na internet (com objetivos apenas de exemplificar visualmente a atividade).
 
 **Resultados e Discussões da atividade:**
 
 * A ferramente indica prevalência positiva de sentimento positivo;
-* O sistema foi capaz de entender que mesmo com nuances expressivas que indicam satisfação, também há um sentimento negativo no contexto geral da frase;
 * O sistema demonstra capacidade de equilibrar bem a intensidade de cada sentimento expresso no texto.
 
 ---
 
 5. **Extração de Entidades e Expressões-Chave:** 
-Como entrada do sistema, foi passada o seguinte trecho textual: "A Microsoft lançou novos recursos de IA em Uberlândia no dia 15 de março de 2024". Espera-se que o sistema retorne as principais entidades que fornecem a lógica semantica na frase, evidenciando as palvras que mais contribuem para o sentido geral. O resultado da atividade pode ser observado na Figura 'entidades.png', alocada no diretório ***\images*** deste repositório.
+Como entrada do sistema, foi passada o seguinte trecho textual: "A Microsoft lançou novos recursos de IA em Uberlândia no dia 15 de março de 2024". Espera-se que o sistema retorne as principais entidades que fornecem a lógica semantica na frase, evidenciando as palavras que mais contribuem para o sentido geral. O resultado da atividade pode ser observado na Figura 'entidades.png', alocada no diretório ***\images*** deste repositório.
+
+Infelizmente obtive os mesmos problemas relacionados à interface na plataforma da Microsoft descritos para a atividade 4. Por isso a análise foi demonstrada por outro site na internet (com objetivos apenas de exemplificar visualmente a atividade).
 
 **Entidades identificadas:**
 
-* *Microsoft* &rarr;
-* *São Paulo* &rarr;
-* *15 de março de 2024* &rarr;
-* *IA / tecnologia* &rarr; 
+* *Microsoft* &rarr; Indica que faz a ação na sentença.
+* *Uberlândia* &rarr; Indica o local
+* *AI* &rarr; Indica o tema geral
 
 **Resultados e Discussões da atividade:**
 
